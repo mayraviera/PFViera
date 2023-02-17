@@ -1,0 +1,15 @@
+{
+  "name": "tercera_preentrega",
+  "version": "1.0.0",
+  "description": "Tercera entrega CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayra Viera",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
