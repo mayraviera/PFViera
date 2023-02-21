@@ -5,14 +5,30 @@ ul {
     ul li a {
       text-decoration: none; }
 
-header nav {
-  background-color: #c6739e; }
+header {
+  background-color: #c6739e;
+  justify-content: center; }
+  header nav .navIcono {
+    display: none; }
+  header nav div {
+    display: flex;
+    justify-content: center; }
+    header nav div li {
+      font-family: 'Bebas Neue', cursive;
+      font-size: 2rem;
+      padding: 10px 5px; }
+      header nav div li a:hover {
+        background-color: #b1628b; }
+
+@media (max-width: 768px) {
+  header nav .navIcono {
+    display: block; }
   header nav li {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
-    padding: 7px; }
-    header nav li a:hover {
-      background-color: #b1628b; }
+    font-size: 1.5rem; } }
+
+@media (min-width: 1440px) {
+  header li {
+    font-size: 3.5rem; } }
 
 footer {
   font-size: 20px;

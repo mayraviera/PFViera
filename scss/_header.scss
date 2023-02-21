@@ -1,0 +1,48 @@
+header {
+    background-color: $rosado;
+    justify-content: center;
+    nav {
+        
+        .navIcono {
+            display: none;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            li {
+                font-family: 'Bebas Neue', cursive;
+                font-size: 2rem;
+                padding: 10px 5px;
+                a {
+                    &:hover {
+                    background-color: $rosadooscuro;
+                    }
+                }
+            }
+        }
+        
+    } 
+}
+
+@media (max-width: 768px) {
+    header {
+        nav {
+            .navIcono {
+            display: block;
+            }  
+            li {
+            font-size: 1.5rem;
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 1440px) {
+    header {
+        li {
+            font-size: 3.5rem;
+        }
+    }
+
+}
