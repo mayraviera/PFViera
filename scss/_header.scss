@@ -11,7 +11,7 @@ header {
             justify-content: center;
             li {
                 font-family: 'Bebas Neue', cursive;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 padding: 10px 5px;
                 a {
                     &:hover {
@@ -24,25 +24,13 @@ header {
     } 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     header {
         nav {
             .navIcono {
             display: block;
-            }  
-            li {
-            font-size: 1.5rem;
-            }
+            } 
         }
         
     }
-}
-
-@media (min-width: 1440px) {
-    header {
-        li {
-            font-size: 3.5rem;
-        }
-    }
-
 }
