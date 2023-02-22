@@ -1,8 +1,6 @@
 header {
     background-color: $rosado;
-    justify-content: center;
     nav {
-        
         .navIcono {
             display: none;
         }
@@ -10,7 +8,6 @@ header {
             display: flex;
             justify-content: center;
             li {
-                font-family: 'Bebas Neue', cursive;
                 font-size: 1.5rem;
                 padding: 10px 5px;
                 a {
@@ -29,6 +26,9 @@ header {
         nav {
             .navIcono {
             display: block;
+            }
+            div {
+                justify-content: flex-start;
             } 
         }
         

@@ -1,3 +1,12 @@
+header nav li {
+  font-family: 'Bebas Neue', cursive; }
+
+header nav span {
+  font-family: 'Gabriela', serif; }
+
+body {
+  font-family: 'Amaranth', sans-serif; }
+
 ul {
   list-style: none; }
   ul li {
@@ -6,15 +15,13 @@ ul {
       text-decoration: none; }
 
 header {
-  background-color: #c6739e;
-  justify-content: center; }
+  background-color: #c6739e; }
   header nav .navIcono {
     display: none; }
   header nav div {
     display: flex;
     justify-content: center; }
     header nav div li {
-      font-family: 'Bebas Neue', cursive;
       font-size: 1.5rem;
       padding: 10px 5px; }
       header nav div li a:hover {
@@ -22,7 +29,9 @@ header {
 
 @media (max-width: 767px) {
   header nav .navIcono {
-    display: block; } }
+    display: block; }
+  header nav div {
+    justify-content: flex-start; } }
 
 footer {
   font-size: 20px;
@@ -58,3 +67,21 @@ footer {
 @media (max-width: 440px) {
   footer {
     font-size: 10px; } }
+
+.bodyMenu {
+  background-color: #b3e1ea; }
+  .bodyMenu .mainMenu figure {
+    background-color: #5dc5da;
+    border-radius: 5px;
+    padding: 15px; }
+  .bodyMenu .mainMenu article {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem; }
+    .bodyMenu .mainMenu article h3 {
+      background-color: #5dc5da;
+      padding: 5px;
+      width: 80%;
+      color: white;
+      border-radius: 8px; }

@@ -1,0 +1,23 @@
+.bodyMenu {
+    background-color: rgb(179, 225, 234);
+    .mainMenu {
+        figure {
+            background-color: rgb(93, 197, 218);
+            border-radius: 5px;
+            padding: 15px;
+        }
+        article {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            h3 {
+                background-color: rgb(93, 197, 218);
+                padding: 5px;
+                width: 80%;
+                color: white;
+                border-radius: 8px;
+            }
+        }
+    }
+}
