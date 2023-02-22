@@ -36,7 +36,7 @@ header {
 footer {
   font-size: 20px;
   display: flex;
-  height: 14vh;
+  height: 10vh;
   background-color: #c6739e;
   padding: 10px;
   align-items: center;
@@ -72,7 +72,10 @@ footer {
   background-color: #b3e1ea; }
   .bodyMenu .mainMenu figure {
     background-color: #5dc5da;
-    border-radius: 5px;
+    border-radius: 14px;
+    border-style: double;
+    border-color: #b3e1ea;
+    border-width: 14px;
     padding: 15px; }
   .bodyMenu .mainMenu article {
     display: flex;
@@ -85,3 +88,25 @@ footer {
       width: 80%;
       color: white;
       border-radius: 8px; }
+
+.bodyServicios {
+  background-image: url(../imagenes/servicios/fondo.jpg); }
+  .bodyServicios main {
+    padding: 5%; }
+    .bodyServicios main article {
+      color: white;
+      padding: 1.5rem; }
+      .bodyServicios main article h3 {
+        text-align: center;
+        width: 40%;
+        background-color: #c6739e;
+        border-radius: 8px;
+        border-style: double;
+        border-color: black;
+        border-width: 5px; }
+    .bodyServicios main .card {
+      font-size: 18px;
+      border-radius: 8px;
+      border-style: double;
+      border-color: black;
+      border-width: 5px; }

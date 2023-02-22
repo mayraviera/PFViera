@@ -1,0 +1,26 @@
+.bodyServicios {
+    background-image: url(../imagenes/servicios/fondo.jpg);
+    main {
+        padding: 5%;
+        article {
+            color: white;
+            padding: 1.5rem;
+            h3 {
+                text-align: center;
+                width: 40%;
+                background-color: $rosado;
+                border-radius: 8px;
+                border-style: double;
+                border-color: black;
+                border-width: 5px;
+            }
+        }
+        .card {
+            font-size: 18px;
+            border-radius: 8px;
+            border-style: double;
+            border-color: black;
+            border-width: 5px;
+        }
+    }
+}
