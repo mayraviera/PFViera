@@ -34,7 +34,7 @@ header {
     justify-content: flex-start; } }
 
 footer {
-  font-size: 20px;
+  font-size: 17px;
   display: flex;
   height: 10vh;
   background-color: #c6739e;
@@ -46,10 +46,6 @@ footer {
     margin: 12px; }
     footer ul li a {
       color: white; }
-
-@media (max-width: 890px) {
-  footer {
-    font-size: 17px; } }
 
 @media (max-width: 768px) {
   footer {
@@ -99,7 +95,7 @@ footer {
       .bodyServicios main article h3 {
         text-align: center;
         width: 40%;
-        background-color: #c6739e;
+        background-color: #ccb69c;
         border-radius: 8px;
         border-style: double;
         border-color: black;
@@ -110,3 +106,66 @@ footer {
       border-style: double;
       border-color: black;
       border-width: 5px; }
+
+form {
+  border: 5px black double;
+  border-radius: 8px;
+  padding: 20px; }
+  form .col {
+    display: flex;
+    justify-content: center; }
+  form input {
+    margin: 10px 0px; }
+  form button {
+    margin: 0.5vh 21vw; }
+
+.mainContacto {
+  padding: 25px;
+  background-image: url(../imagenes/contacto/fondo.webp); }
+  .mainContacto .formSection {
+    padding: 0px; }
+    .mainContacto .formSection form {
+      background-color: #eeeeeeb7; }
+  .mainContacto article {
+    display: flex;
+    justify-content: center;
+    margin: 0px; }
+    .mainContacto article h3 {
+      background-color: #c6739e;
+      margin: 20px;
+      text-align: center;
+      border-radius: 8px;
+      border: 2px black solid;
+      width: 55%; }
+  .mainContacto .contactoSection img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px; }
+  .mainContacto .contactoSection .img2 {
+    height: 100px; }
+  .mainContacto .contactoSection .row {
+    justify-content: center; }
+    .mainContacto .contactoSection .row div {
+      display: flex;
+      justify-content: flex-end; }
+    .mainContacto .contactoSection .row .div2 {
+      justify-content: flex-start;
+      align-items: center; }
+      .mainContacto .contactoSection .row .div2 p {
+        font-size: 1.5vw;
+        border: 5px black double;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: #eeeeeeb7; }
+
+@media (max-width: 768px) {
+  .mainContacto .contactoSection img {
+    margin-right: 0px; }
+  .mainContacto .contactoSection .row div {
+    justify-content: center; }
+  .mainContacto .contactoSection .row .div2 {
+    justify-content: center; } }
+
+@media (max-width: 768px) {
+  .mainContacto .contactoSection .row .div2 p {
+    font-size: 3vh; } }

@@ -40,23 +40,10 @@
                 </div>
               </nav>
         </header>
-        <main>
-            <section>
-                <h3>Contactame</h3>
-                <div class="card">
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <img src="../imagenes/contacto/whatsapp.jpg" alt="whatsapp">
-                        <p><strong>099371018</strong></p>
-                        <img src="../imagenes/contacto/email.jpg" alt="email">
-                        <p><strong>etereamentedulceuy@gmail.com</strong></p>
-                      </blockquote>
-                    </div>
-                  </div>
-            </section>
-            <section>
-                <h3>Dejame tu mensaje</h3>
-                <form action="mailto:etereamentedulceuy@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
+        <main class="mainContacto">
+            <section class="container formSection">
+                <article><h3 class="text-light">Dejame tu mensaje</h3></article>
+                <form class="container" action="mailto:etereamentedulceuy@gmail.com" method="POST" enctype="application/x-www-form-urlencoded">
                     <div class="row">
                       <div class="col">
                         <input type="text" class="form-control" placeholder="Nombre">
@@ -69,8 +56,25 @@
                       </div>
                     </div>
                     <input type="text" class="form-control" placeholder="Tu mensaje">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-dark w-50">Submit</button>
                 </form>
+            </section>
+            <section class="container contactoSection">
+                <article><h3 class="text-light">Contactame</h3></article>
+                <div class="row g-3">
+                    <div class="col-sm-12 col-md-3 col-lg-3 div1">
+                        <img src="../imagenes/contacto/whatsapp.jpg" alt="whatsapp">
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9 div2">
+                        <p><strong>099371018</strong></p>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-3 div1">
+                        <img src="../imagenes/contacto/email.jpg" alt="email" class="img2">
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9 div2">
+                        <p><strong>etereamentedulceuy@gmail.com</strong></p>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>

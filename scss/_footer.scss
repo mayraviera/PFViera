@@ -1,5 +1,5 @@
 footer {
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     height: 10vh;
     background-color: $rosado;
@@ -14,12 +14,6 @@ footer {
                 color: white;
             }
         }
-    }
-}
-
-@media (max-width: 890px) {
-    footer {
-        font-size: 17px;
     }
 }
 

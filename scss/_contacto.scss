@@ -1,0 +1,85 @@
+.mainContacto {
+    padding: 25px;
+    background-image: url(../imagenes/contacto/fondo.webp);
+    .formSection {
+        padding: 0px;
+        form {
+            background-color: #eeeeeeb7;
+        }
+    }
+    article {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        h3 {
+            background-color: $rosado;
+            margin: 20px;
+            text-align: center;
+            border-radius: 8px;
+            border: 2px black solid;
+            width: 55%;
+        }
+    }
+    .contactoSection {
+        img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .img2 {
+            height: 100px;
+        }
+        .row {
+            justify-content: center;
+            div {
+                display: flex;
+                justify-content: flex-end;
+            }
+            .div2 {
+                justify-content: flex-start;
+                align-items: center;
+                p {
+                    font-size: 1.5vw;
+                    border: 5px black double;
+                    border-radius: 8px;
+                    padding: 5px;
+                    background-color: #eeeeeeb7;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .mainContacto {
+        .contactoSection {
+            img {
+                margin-right: 0px;
+            }
+            .row {
+                div {
+                    justify-content: center;
+                }
+                .div2 {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .mainContacto {
+        .contactoSection {
+            .row {
+                .div2 {
+                    p {
+                        font-size: 3vh;
+                    }
+                }
+            }
+        }
+    }
+    
+}
