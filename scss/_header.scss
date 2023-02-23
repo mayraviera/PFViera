@@ -10,10 +10,9 @@ header {
             li {
                 font-size: 1.5rem;
                 padding: 10px 5px;
-                a {
-                    &:hover {
+                &:hover {
                     background-color: $rosadooscuro;
-                    }
+                    border-radius: 8px;
                 }
             }
         }

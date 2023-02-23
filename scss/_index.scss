@@ -1,0 +1,67 @@
+main {
+    .fondoLogo {
+        padding: 10px;
+        background-image: url(../imagenes/index/fondoIndex1.jpeg);
+        img {
+            padding: 30px 50px;
+        }
+        h3 {
+            background-color: #c6739e;
+            border-radius: 8px;
+            color: white;
+        }
+    }
+    .carouselSection {
+        background-color: antiquewhite;
+        .carousel-inner {
+            padding: 4%;
+            background-color: rgb(233, 240, 240);
+            margin: 6% 20%;
+            border-style: double;
+            border-width: 8px;
+            border-radius: 10px;
+        }
+        aside {
+            padding: 3%;
+            .icon-black, .icon-black:hover {
+                color: black;
+                background-color: white;
+            }
+        }
+    }   
+}
+
+@media (min-width: 1024px) {
+    main {
+        .carouselSection {
+            aside {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        .fondoLogo {
+            h3 {
+                font-size: 18px;            
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        .fondoLogo {
+            h3 {
+                font-size: 13px;            
+            }
+        }
+        .carouselSection {
+            aside {
+                font-size: 12px;
+            }
+        }
+    }
+}

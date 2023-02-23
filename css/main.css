@@ -7,8 +7,13 @@ header nav span {
 body {
   font-family: 'Amaranth', sans-serif; }
 
+.byAlejandra {
+  font-family: 'Gabriela', serif; }
+
 ul {
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  justify-content: center; }
   ul li {
     display: inline; }
     ul li a {
@@ -24,8 +29,9 @@ header {
     header nav div li {
       font-size: 1.5rem;
       padding: 10px 5px; }
-      header nav div li a:hover {
-        background-color: #b1628b; }
+      header nav div li:hover {
+        background-color: #b1628b;
+        border-radius: 8px; }
 
 @media (max-width: 767px) {
   header nav .navIcono {
@@ -63,6 +69,76 @@ footer {
 @media (max-width: 440px) {
   footer {
     font-size: 10px; } }
+
+main .fondoLogo {
+  padding: 10px;
+  background-image: url(../imagenes/index/fondoIndex1.jpeg); }
+  main .fondoLogo img {
+    padding: 30px 50px; }
+  main .fondoLogo h3 {
+    background-color: #c6739e;
+    border-radius: 8px;
+    color: white; }
+
+main .carouselSection {
+  background-color: antiquewhite; }
+  main .carouselSection .carousel-inner {
+    padding: 4%;
+    background-color: #e9f0f0;
+    margin: 6% 20%;
+    border-style: double;
+    border-width: 8px;
+    border-radius: 10px; }
+  main .carouselSection aside {
+    padding: 3%; }
+    main .carouselSection aside .icon-black, main .carouselSection aside .icon-black:hover {
+      color: black;
+      background-color: white; }
+
+@media (min-width: 1024px) {
+  main .carouselSection aside {
+    font-size: 20px; } }
+
+@media (max-width: 768px) {
+  main .fondoLogo h3 {
+    font-size: 18px; } }
+
+@media (max-width: 425px) {
+  main .fondoLogo h3 {
+    font-size: 13px; }
+  main .carouselSection aside {
+    font-size: 12px; } }
+
+.mainDulces {
+  background-image: url(../imagenes/dulcesCreaciones/fondo.jpg); }
+  .mainDulces figure {
+    margin: 0px; }
+    .mainDulces figure article .card {
+      background-color: #f6efe5; }
+    .mainDulces figure .row div {
+      display: flex;
+      justify-content: center; }
+      .mainDulces figure .row div .card-body {
+        padding: 5px 16px; }
+      .mainDulces figure .row div img {
+        border: 8px double #5b5b5f;
+        border-radius: 8px; }
+    .mainDulces figure .card2 {
+      padding: 2%;
+      text-align: center; }
+      .mainDulces figure .card2 .row .card div .instagram {
+        background: #f09433;
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        border-color: #e6683c; }
+      .mainDulces figure .card2 .row .card div a {
+        margin: 0px 10px; }
+
+@media (max-width: 768px) {
+  .mainDulces figure .row div {
+    justify-content: center; } }
 
 .bodyMenu {
   background-color: #b3e1ea; }
