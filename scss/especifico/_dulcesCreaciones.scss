@@ -37,7 +37,7 @@
                             border-color: #e6683c;
                         }
                         a {
-                            margin: 0px 10px;
+                            @include margin(0px, 10px)
                         }
                     }   
                 }

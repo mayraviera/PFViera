@@ -7,9 +7,10 @@ form {
         justify-content: center;
     }
     input {
-        margin: 10px 0px;
+        @include margin(10px, 0px);
     }
     button {
-        margin: 0.5vh 21vw;
+        margin: 1vh 19vw;
     }
+    
 }
